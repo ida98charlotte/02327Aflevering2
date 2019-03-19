@@ -9,7 +9,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 //TODO Rename class so it matches your study-number
-public class UserDAOImpls134000 implements IUserDAO {
+public class UserDAOImpls185041 implements IUserDAO {
     //TODO Make a connection to the database
     private Connection createConnection() throws SQLException {
         return  DriverManager.getConnection("jdbc:mysql://ec2-52-30-211-3.eu-west-1.compute.amazonaws.com/chbu?"
